@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+	margin:5px;
+	padding:0; 
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear:both;
+}
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float:left;
+}
+.col-1{
+	width: 8.333333%;
+}
+.col-2{
+	width: 16.666667%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.333333%;
+}
+.col-5{
+	width: 41.666667%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.333333%;
+}
+.col-8{
+	width: 66.666666%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.333333%;
+}
+.col-11{
+	width: 91.666666%;
+}
+.col-12{
+	width: 100%;
+}
+.logotipo{
+	max-width: 100%;
+	margin-left: 150px;
+}
+.menu{
+	background: white;
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	position: relative;
+
+}
+li{
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid #7C7C7C;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 100px auto;
+    margin-right: 20px auto;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.chicas img{
+  margin-top: 10px;
+  width:600px;
+  height:600px;
+  background-size: 60% 60%;
+  margin-left: 100px;
+  
+}
+.parrafo{
+	text-align: center;
+	font-size: 24px;
+	margin: 30% 30%;
+	margin-bottom: 0;
+	margin-top: 20px;
+	margin-left: 80px;
+
+}
+div hr{
+	margin-left: 180px;
+	width:50%;
+	
+}
+	
+h4{
+	font-family: comic sans;
+}
+hr{
+  background-color: black;
+  height: 2px;
+  margin-left: 0%;
+  margin-right: 94%;
+}
+p{
+	color: white;
+	position: relative;
+	top: 155px;
+	left: 70px;
+	
+}
+.box{
+	height: 200px;
+	width: 200px;
+}
+.pic1{
+	background-image: url(../img/profile-1.png);
+	float: left;
+	margin-bottom: 20px;
+}
+.pic2{
+	background-image: url(../img/profile-2.png);
+	float: left;
+	margin-left: 20px;
+	margin-right:20px;
+}
+	
+.pic3{
+	background-image: url(../img/profile-3.png);
+	float: left;
+}
+	
+.pic4{
+	background-image: url(../img/profile-4.png);
+	clear: both;
+	float: left;
+}
+.pic5{
+	background-image: url(../img/profile-5.png);
+	float: left;
+	margin-left: 20px;
+	margin-right:20px;
+}
+.pic6{
+	background-image: url(../img/profile-6.png);
+	float: left;
+}
+.principal{
+	border:1px solid grey;
+	width: 450px;
+	height: 800px;
+	margin-top: 500px;
+	margin-left: 80px;
+}
+.principal img{
+	border-radius: 160px 160px;
+	margin-left: 120px;
+}
+.parrafo2{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+h3 h2 {
+
+	
+	margin:10px 10px 10px 10px;
+}
+.html{
+	background-color: #D6DBDF;
+	width: 160px;
+	height: 25px;
+	margin-top: 20px;
+}
+.CSS{
+	background-color: #D6DBDF;
+	width: 100px;
+	height: 25px;
+	margin-top: 20px;
+}
+.Java{
+	background-color: #D6DBDF;
+	width: 80px;
+	height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.porta1{
+	background-image: url(../img/p5.jpg);
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 2px;
+	width: 100px;
+	height: 60px;
+
+}
+.porta2{
+	background-image: url(../img/p6.jpg);
+	float: left;
+	margin-left: 2px;
+	margin-right:2px;
+	width: 100px;
+	height: 60px;
+}
+	
+.porta3{
+	background-image: url(../img/p8.jpg);
+	float: left;
+	width: 100px;
+	height: 60px;
+}
+	
+.porta4{
+	background-image: url(../img/p5.jpg);
+	clear: both;
+	float: left;
+	margin-left: 60px;
+	width: 100px;
+	height: 60px;
+
+}
+.porta5{
+	background-image: url(../img/p6.jpg);
+	float: left;
+	margin-left: 2px;
+	margin-right:2px;
+	width: 100px;
+	height: 60px;
+
+}
+.porta6{
+	background-image: url(../img/p8.jpg);
+	float: left;
+	width: 100px;
+	height: 60px;
+}
